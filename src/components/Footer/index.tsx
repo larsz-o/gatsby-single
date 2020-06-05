@@ -5,12 +5,14 @@ export const Footer: FunctionComponent<{}> = () => {
     return (
         <Container>
             <Info>
-                <NoWrap>&copy; 2019</NoWrap>{' '}
+                <NoWrap>&copy; {year}</NoWrap>{' '}
                 <NoWrap>
-                    &laquo;Grayscale Promo!&raquo; &mdash; a GatsbyJS starter
+                    Created by Lars Mackenzie Designs &mdash; with GatsbyJS :)
                 </NoWrap>
             </Info>
-            <Info>Our website uses no cookies :)</Info>
+            <Info>Our website uses no cookies</Info>
         </Container>
     );
 };
+let date = new Date();
+let year = date.getFullYear();
