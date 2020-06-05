@@ -40,7 +40,7 @@ export const Intro: FunctionComponent<{}> = () => {
                                 effect="fade-slide-left"
                                 effectTimeout={timeoutBase}
                             >
-                                Hi, I'm Joe
+                                Hi, I'm Joe.
                             </Title>
                             <SubTitle
                                 effect="fade-slide-bottom"
@@ -55,8 +55,8 @@ export const Intro: FunctionComponent<{}> = () => {
                         />
                     </Container>
                     <Copyright
-                        author="Caspar Camille Rubin"
-                        source="https://unsplash.com/photos/fPkvU7RDmCo"
+                        author="Patrick Tomasso"
+                        source="https://unsplash.com/photos/Oaqk7qqNh_c"
                         sourceText="Unsplash"
                     />
                 </>
