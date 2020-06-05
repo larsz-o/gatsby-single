@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: 'Grayscale promo',
-        description: 'Grayscale promo gatsby starter',
+        title: 'T. Joseph Leach',
+        description: 'Professional website',
         author: '@larsz-o',
     },
     plugins: [
