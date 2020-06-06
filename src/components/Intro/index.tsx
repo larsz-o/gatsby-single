@@ -36,6 +36,7 @@ export const Intro: FunctionComponent<{}> = () => {
                         />
                         <ImageOverlay />
                         <Data className="intro-data">
+                            <div>
                             <Title
                                 effect="fade-slide-left"
                                 effectTimeout={timeoutBase}
@@ -48,6 +49,8 @@ export const Intro: FunctionComponent<{}> = () => {
                             >
                                I'm an educator, editor, and scholar.
                             </SubTitle>
+                            </div>
+                            <img className="bio-pic" src={require('../../../static/assets/joeisolate-head.png')} alt="Joe"/>
                         </Data>
                         <Arrow
                             effectTimeout={timeoutBase + 1500}

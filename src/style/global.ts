@@ -249,4 +249,17 @@ export const GlobalStyle = createGlobalStyle`
         margin-inline-start: 0;
         margin-inline-end: 0;
     }
+    .intro-data {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      overflow: hidden;
+    }
+    .bio-pic {
+      padding: 5vh;
+      margin: 2vw;
+      border-radius: 50%;
+      background-color: rgba(255, 255, 255, .1);
+    }
 `;

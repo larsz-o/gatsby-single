@@ -13,3 +13,8 @@ In this starter, we have:
 ✅ correct support of putting graphic assets through [Image Sharp plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-sharp/),<br />
 ✅ [TypeScript](http://www.typescriptlang.org/),<br />
 ✅ cool animations :)<br />
+
+
+
+
+

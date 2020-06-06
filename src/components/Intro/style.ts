@@ -27,7 +27,6 @@ export const ImageOverlay = styled.div`
     background-color: black;
     opacity: 0.6;
 `;
-
 const expandVertically = 'height: 100vh; overflow-y: hidden;';
 export const Data = styled.div`
     ${central()}
